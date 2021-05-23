@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
   # 定时任务，每7小时运行一次 
-    - cron: '0 */7 * * *'
+  # - cron: '0 */7 * * *'
 
 
 jobs:
